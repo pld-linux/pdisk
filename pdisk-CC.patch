@@ -1,0 +1,17 @@
+diff -ur pdisk/makefile pdisk-/makefile
+--- pdisk/makefile	Tue May 16 15:02:05 2000
++++ pdisk-/makefile	Tue Mar 19 13:15:50 2002
+@@ -136,10 +136,10 @@
+ all: $(UNIX_BINARIES)
+ 
+ pdisk: $(UNIX_OBJECTS)
+-	cc -o pdisk $(UNIX_OBJECTS)
++	$(CC) $(LDFLAGS) -o pdisk $(UNIX_OBJECTS)
+ 
+ cvt_pt: $(CVT_OBJECTS)
+-	cc -o cvt_pt $(CVT_OBJECTS)
++	$(CC) $(LDFLAGS) -o cvt_pt $(CVT_OBJECTS)
+ 
+ tags:	$(MAC_SOURCE) $(UNIX_SOURCE)
+ 	ctags $(MAC_SOURCE) $(UNIX_SOURCE)
+Only in pdisk-: makefile~
