@@ -1,4 +1,5 @@
 Summary:	A partitioning tool for Apple Macintosh-style partitioned disks
+Summary(pl):	Narzedzie do partycjonowania dyskow Apple Macintosh
 Name:		pdisk
 Version:	0.8
 Release:	3
