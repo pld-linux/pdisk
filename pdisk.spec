@@ -43,14 +43,12 @@ install pdisk $RPM_BUILD_ROOT%{_sbindir}/pdisk
 install cvt_pt $RPM_BUILD_ROOT%{_sbindir}/cvt_pt
 install pdisk.8 $RPM_BUILD_ROOT%{_mandir}/man8/pdisk.8
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README.gz pdisk.html
+%doc README pdisk.html
 %attr(755,root,root) %{_sbindir}/pdisk
 %attr(755,root,root) %{_sbindir}/cvt_pt
 %{_mandir}/man8/*
