@@ -7,6 +7,7 @@ License:	Apple Free Copyright
 Group:		Applications/System
 Source0:	ftp://cfcl.com/pub/ev/%{name}.20000516.src.tar
 Patch0:		%{name}-docs.patch
+Patch1:		%{name}-CC.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_sbindir	/sbin
@@ -29,9 +30,10 @@ dysk.
 %prep
 %setup -q -n %{name}
 %patch0 -p1
+%patch1 -p1
 
 %build
-%{__make}
+%{__make} CC="%{__cc}" LDFLAGS="%{rpmldflags}" CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
