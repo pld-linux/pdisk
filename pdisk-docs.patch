@@ -1,0 +1,33 @@
+--- pdisk/pdisk.html.old	Sat Jan 27 17:38:15 2001
++++ pdisk/pdisk.html	Sat Jan 27 17:43:10 2001
+@@ -32,13 +32,13 @@
+ MacPlus, but that was replaced by the current scheme in the Macintosh
+ II and subsequent machines and in subsequent operating system
+ releases. The current scheme is supported by Mac OS, A/UX, ProDos,
+-MkLinux, LinuxPPC, and MacOS X.</P>
++MkLinux, PPC Linux, and Mac OS X.</P>
+ 
+-<H3>What are LinuxPPC and MkLinux?</H3>
++<H3>What are PPC Linux and MkLinux?</H3>
+ 
+-<P>Just in case you got pdisk other than as part of a LinuxPPC or
+-MkLinux release:</P>
+-<P>LinuxPPC is a port of the true Linux operating system that runs
++<P>Just in case you got pdisk other than as part of a PPC Linux or
++MkLinux distribution:</P>
++<P>PowerPC Linux is a port of the true Linux operating system that runs
+ on most of the Power Macintosh systems from Apple Computer. It also
+ runs on several non-Apple PowerPC machines.</P>
+ <P>MkLinux is a portion of the Linux operating system, converted to run
+@@ -95,8 +95,9 @@
+ 
+ <H3>Where can I get the source?</H3>
+ 
+-<P>The main site for LinuxPPC is 
+-&lt;<A HREF="http://www.linuxppc.org">http://www.linuxppc.org</A>&gt;.
++<P>The distribution-neutral (there are many distributions) site for PowerPC
++Linux is 
++&lt;<A HREF="http://www.penguinppc.org">http://www.penguinppc.org</A>&gt;.
+ The main site for MkLinux is
+ &lt;<A HREF="http://www.mklinux.org">http://www.mklinux.org</A>&gt;.
+ </P>
