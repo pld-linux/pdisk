@@ -6,6 +6,7 @@ Release:	3
 License:	Apple Free Copyright
 Group:		Applications/System
 Source0:	ftp://cfcl.com/pub/ev/%{name}.20000516.src.tar
+# Source0-md5:	ca1279cc31edb92acaf00fd8b58b1dda
 Patch0:		%{name}-docs.patch
 Patch1:		%{name}-CC.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
