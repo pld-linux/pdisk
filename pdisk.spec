@@ -50,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README.gz pdisk.html
 %attr(755,root,root) %{_sbindir}/pdisk
 %attr(755,root,root) %{_sbindir}/cvt_pt
 %{_mandir}/man8/*
-%doc README.gz pdisk.html
