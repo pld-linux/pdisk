@@ -1,5 +1,5 @@
 Summary:	A partitioning tool for Apple Macintosh-style partitioned disks
-Summary(pl):	Narzêdzie do partycjonowania dysków Apple Macintosh
+Summary(pl.UTF-8):   NarzÄ™dzie do partycjonowania dyskÃ³w Apple Macintosh
 Name:		pdisk
 Version:	0.8
 Release:	4
@@ -22,11 +22,11 @@ HFS (except it would be up to Mac OS or some other tool to actually
 create the HFS filesystem in that HFS partition). pdisk won't put Mac
 OS disk drivers onto your disk.
 
-%description -l pl
-pdisk jest odpowiednikiem fdiska, umo¿liwiaj±cym podgl±d i modyfikacjê
-tablic partycji zapisanych w formacie Apple Macintosh. Jest u¿ywany do
-tworzenia partycji linuksowych na dysku, a tak¿e do tworzenia partycji
-innych typów, takich jak HFS. Nie nagrywa sterowników pod MacOS na
+%description -l pl.UTF-8
+pdisk jest odpowiednikiem fdiska, umoÅ¼liwiajÄ…cym podglÄ…d i modyfikacjÄ™
+tablic partycji zapisanych w formacie Apple Macintosh. Jest uÅ¼ywany do
+tworzenia partycji linuksowych na dysku, a takÅ¼e do tworzenia partycji
+innych typÃ³w, takich jak HFS. Nie nagrywa sterownikÃ³w pod MacOS na
 dysk.
 
 %prep
